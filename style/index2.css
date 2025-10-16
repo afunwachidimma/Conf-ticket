@@ -40,14 +40,14 @@
 
 #ticket {
     width: 20rem;
-    margin: 2rem 0 0 0.6rem;
+    margin: 2rem 0 0 1.5rem;
 }
 
 #img4 {
     width: 10rem;
     position: relative;
     top: -9rem;
-    left: 1.4rem;
+    left: 1.8rem;
 }
 
 #p2 {
@@ -64,26 +64,26 @@
     border: 1px solid white;
     position: relative;
     top: -9.3rem;
-    left: 1.4rem;
+    left: 1.8rem;
 }
 
 #name {
     font-size: 1rem;
     position: relative;
     top: -14.3rem;
-    left: 5.5rem;
+    left: 5.9rem;
 }
 
 #github {
     position: relative;
     top: -15.5rem;
-    left: 5.5rem;
+    left: 5.9rem;
 }
 
 #email {
     position: relative;
     top: -18rem;
-    left: 7rem;
+    left: 7.6rem;
     color: rgb(201, 200, 204);
 }
 
@@ -91,7 +91,7 @@
     transform: rotate(90deg);
     position: relative;
     top: -14.6rem;
-    left: 8rem;
+    left: 7rem;
     color: rgb(201, 200, 204);
     font-size: 1.3rem;
 }
