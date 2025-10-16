@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conf Ticket</title>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
+
+    <div id="main">
+        <img id="img1" src="./images/logo-full.svg" alt="">
+        <h1 class="h1">Your journey to coding conf 2025 starts here!</h1>
+        <p class="p1">Secure your spot at next year's biggest coding conference</p>
+        <p class="p2">Upload Avatar</p>
+        <form id="form">
+            <div id="sub">
+                <div id="upload-box">
+                    <label for="fileInput" id="upload-label">
+                        <img src="./images/icon-upload.svg" alt="">
+                        <p class="p4">Drag and Drop or Click to Upload</p>
+                    </label>
+                    <input class="in" type="file" name="file" id="fileInput" accept="image/*" hidden>
+                    <div id="preview" style="display: none;">
+                        <img id="preview-img" src="" alt="Avatar Preview">
+                        <div class="buttons">
+                            <button type="button" id="changeBtn">Change</button>
+                            <button type="button" id="removeBtn">Remove</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <span class="error" id="avatarError"></span>
+            <p class="p3">
+                <small>
+                    <img src="./images/icon-info.svg" alt="">
+                    Upload your picture (jpg or png, max size: 500kb)
+                </small>
+            </p>
+            <div class="form">
+                <label class="lab" for="name">Full Name :</label> <br>
+                <input class="input" type="text" id="myName" name="name"><br>
+                <span class="error" id="nameError"></span><br>
+                <label class="lab" for="email">Email Address :</label><br>
+                <input class="input" type="email" name="email" id="email" placeholder="example@email.com"><br>
+                <span class="error" id="emailError"></span><br>
+                <label class="lab" for="user">Github Username :</label><br>
+                <input class="input" type="text" name="user" id="user" placeholder="@yourusername"><br>
+                <span class="error" id="userError"></span><br>
+                <button id="btn2">Generate my Ticket</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./script/index.js"></script>
+    <!-- </section><br> -->
+
+    <!-- <section id="section2" style="display: none;">
+        <div id="main">
+            <img id="img1" src="../images/logo-full.svg" alt="">
+            <h1 id="h1">Congrats, <span class="gradient">Jonatan Kristof!</span> your ticket is ready.</h1>
+            <p id="p1">We've emailed your ticket to <a id="link" href="../index.html">Jonatan@email.com</a> and will
+                send
+                updates in the
+                run up to the event.</p>
+            <img id="ticket" src="../images/pattern-ticket.svg" alt="">
+            <div id="ticket2">
+                <img id="img4" src="../images/logo-full.svg" alt="">
+                <p id="p2">Jan 31, 2025 / Austin, TX</p>
+                <img id="avatar" src="" alt="">
+                <h4 id="name"></h4>
+                <img id="github" src="../images/icon-github.svg" alt="">
+                <p id="email"></p>
+                <p id="p4">#01609</p>
+            </div>
+        </div>
+        <script src="../script/index2.js"></script>
+    </section>
+</body>
+
+</html>
