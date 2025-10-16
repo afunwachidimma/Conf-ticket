@@ -1,0 +1,198 @@
+#main {
+    background: url(../images/pattern-circle.svg),
+        url(../images/pattern-lines.svg),
+        url(../images/pattern-squiggly-line-top.svg),
+        url(../images/pattern-circle.svg),
+        url(../images/pattern-squiggly-line-bottom-mobile-tablet.svg),
+        url(../images/background-mobile.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 18rem 28rem, calc(100% - 20px) 20px, calc(100% + 10px) 1%, -50px -50px, left bottom, center;
+    background-size: 130px, 800px, 8rem, 140px, 290px, cover;
+    color: white;
+    height: 100%;
+    /* width: 97%; */
+
+}
+
+#img1 {
+    margin: 2rem 0 1rem 4.8rem;
+    width: 11rem;
+}
+
+#h1 {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.spa {
+    color: hsl(7, 86%, 67%);
+}
+
+#p1 {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 2rem 0 2rem;
+}
+
+#link {
+    color: hsl(7, 71%, 60%);
+}
+
+#ticket {
+    width: 20rem;
+    margin: 2rem 0 0 0.6rem;
+}
+
+#img4 {
+    width: 10rem;
+    position: relative;
+    top: -9rem;
+    left: 1.4rem;
+}
+
+#p2 {
+    position: relative;
+    top: -9.7rem;
+    left: 4rem;
+    color: rgb(201, 200, 204);
+}
+
+#avatar {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 6px;
+    border: 1px solid white;
+    position: relative;
+    top: -9.3rem;
+    left: 1.4rem;
+}
+
+#name {
+    font-size: 1rem;
+    position: relative;
+    top: -14.3rem;
+    left: 5.5rem;
+}
+
+#github {
+    position: relative;
+    top: -15.5rem;
+    left: 5.5rem;
+}
+
+#email {
+    position: relative;
+    top: -18rem;
+    left: 7rem;
+    color: rgb(201, 200, 204);
+}
+
+#p4 {
+    transform: rotate(90deg);
+    position: relative;
+    top: -14.6rem;
+    left: 8rem;
+    color: rgb(201, 200, 204);
+    font-size: 1.3rem;
+}
+
+#img7 {
+    height: 19rem;
+    width: 19rem;
+    position: relative;
+    top: -19.4rem;
+}
+
+@media screen and (min-width:1024px) {
+    #main {
+        background: url(../images/pattern-circle.svg),
+            url(../images/pattern-lines.svg),
+            url(../images/pattern-squiggly-line-top.svg),
+            url(../images/pattern-circle.svg),
+            url(../images/pattern-squiggly-line-bottom-desktop.svg),
+            url(../images/background-desktop.png);
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: 57rem 30rem, calc(100% - 20px) 20px, calc(100% + 10px) 1%, -50px -50px, left bottom, center;
+        background-size: 230px, 1500px, 20rem, 230px, 750px, cover;
+        color: white;
+        height: 100%;
+        margin: 2rem 13rem;
+    }
+
+    #img1 {
+        margin: 1.9rem 0 1rem 28rem;
+        width: 12rem;
+    }
+
+    #h1 {
+        text-align: center;
+        margin: 1.5rem 15rem 1rem 15rem;
+        font-size: 2.4rem;
+        font-weight: bolder;
+        word-spacing: 1rem;
+    }
+
+    #p1 {
+        text-align: center;
+        font-size: 1.4rem;
+        margin: 3rem 24rem;
+        margin-bottom: 4rem;
+    }
+
+    #ticket {
+        margin: 1rem 0 0 24rem;
+        width: 26rem;
+
+    }
+
+    #img4 {
+        left: 25rem;
+        top: -11.5rem;
+        width: 14rem;
+    }
+
+    #p2 {
+        left: 28rem;
+        top: -12.3rem;
+        font-size: 1.3rem;
+    }
+
+    #avatar {
+        left: 25rem;
+        width: 4rem;
+        height: 4rem;
+        top: -12rem;
+    }
+
+    #name {
+        top: -18rem;
+        font-size: 1.3rem;
+        left: 30.2rem;
+    }
+
+    #github {
+        left: 30rem;
+        top: -19rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #email {
+        left: 32rem;
+        top: -22.2rem;
+        font-size: 1.2rem;
+    }
+
+    #p4 {
+        top: 2.3rem;
+        left: 11.4rem;
+        font-size: 2rem;
+    }
+
+    #img7 {
+        top: -37rem;
+        width: 30rem;
+        left: -1.4rem;
+    }
+
+}
