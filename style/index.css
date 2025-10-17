@@ -12,8 +12,8 @@
     background-size: 130px, 700px, 8rem, 150px, 290px, cover;
     color: white;
     height: 50rem;
-    /* width: 22rem; */
-    /* margin-left: 1rem; */
+    /* width: 100%; */
+    margin-left: 1rem;
 }
 
 #img1 {
@@ -300,15 +300,15 @@
     }
 
     .input.error {
-        margin: 0.7rem 0 1rem 18rem;
+        margin: 0.7rem 0 1rem 23.3rem;
     }
 
     .error {
-        margin-left: 18rem;
+        margin-left: 23rem;
     }
 
     #avatarError {
-        margin-left: 20rem;
+        margin-left: 24rem;
     }
 
 }
