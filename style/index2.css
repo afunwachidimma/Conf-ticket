@@ -15,7 +15,7 @@
 }
 
 #img1 {
-    margin: 2rem 0 1rem 4.8rem;
+    margin: 2rem 0 1rem 2rem;
     width: 11rem;
 }
 
@@ -31,7 +31,7 @@
 #p1 {
     text-align: center;
     font-size: 1rem;
-    margin: 0 2rem 0 2rem;
+    margin: 0 1px;
 }
 
 #link {
@@ -120,13 +120,13 @@
     }
 
     #img1 {
-        margin: 1.9rem 0 1rem 28rem;
+        margin: 1.9rem 0 1rem 23rem;
         width: 12rem;
     }
 
     #h1 {
         text-align: center;
-        margin: 1.5rem 15rem 1rem 15rem;
+        margin: 1.5rem 11rem 1rem 11rem;
         font-size: 2.4rem;
         font-weight: bolder;
         word-spacing: 1rem;
@@ -135,30 +135,29 @@
     #p1 {
         text-align: center;
         font-size: 1.4rem;
-        margin: 3rem 24rem;
+        margin: 3rem 15rem;
         margin-bottom: 4rem;
     }
 
     #ticket {
-        margin: 1rem 0 0 24rem;
+        margin: 1rem 0 0 17rem;
         width: 26rem;
-
     }
 
     #img4 {
-        left: 25rem;
+        left: 17.8rem;
         top: -11.5rem;
         width: 14rem;
     }
 
     #p2 {
-        left: 28rem;
+        left: 20rem;
         top: -12.3rem;
         font-size: 1.3rem;
     }
 
     #avatar {
-        left: 25rem;
+        left: 18rem;
         width: 4rem;
         height: 4rem;
         top: -12rem;
@@ -167,25 +166,25 @@
     #name {
         top: -18rem;
         font-size: 1.3rem;
-        left: 30.2rem;
+        left: 22.6rem;
     }
 
     #github {
-        left: 30rem;
+        left: 22.6rem;
         top: -19rem;
         width: 2rem;
         height: 2rem;
     }
 
     #email {
-        left: 32rem;
+        left: 25rem;
         top: -22.2rem;
         font-size: 1.2rem;
     }
 
     #p4 {
-        top: 2.3rem;
-        left: 11.4rem;
+        top: -4.5rem;
+        left: 12.5rem;
         font-size: 2rem;
     }
 

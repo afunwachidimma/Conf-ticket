@@ -215,29 +215,29 @@
     }
 
     .p2 {
-        margin-left: 24rem;
+        margin-left: 20rem;
         font-size: 1.1rem;
         margin-top: 1rem;
     }
 
     #sub {
         width: 35%;
-        margin: 0 24rem;
+        margin: 0 20rem;
         height: 5rem;
     }
 
     .p3 {
-        margin: 0.9rem 0 0rem 24rem;
+        margin: 0.9rem 0 0rem 20rem;
         font-size: 1.15rem;
     }
 
     .lab {
-        margin: 1.7rem 0 0.4rem 23rem;
+        margin: 1.7rem 0 0.4rem 19rem;
         font-size: 1.6rem;
     }
 
     .input {
-        margin: 0.7rem 0 1rem 23rem;
+        margin: 0.7rem 0 1rem 19rem;
         width: 34%;
         height: 2rem;
         font-size: 1rem;
@@ -246,7 +246,7 @@
     }
 
     #btn2 {
-        margin-left: 23rem;
+        margin-left: 19rem;
         width: 35.5%;
         bottom: 1rem;
         margin-top: 1.9rem;
