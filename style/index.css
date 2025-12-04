@@ -144,12 +144,12 @@
 }
 
 #changeBtn {
-    background: #4CAF50;
+    background: #76e27a;
     color: white;
 }
 
 #removeBtn {
-    background: #f44336;
+    background: #f37a72;
     color: white;
 }
 
@@ -300,15 +300,16 @@
     }
 
     .input.error {
-        margin: 0.7rem 0 1rem 23.3rem;
+        margin: 0.7rem 0 1rem 19rem;
+        font-size: 1rem;
     }
 
     .error {
-        margin-left: 23rem;
+        margin-left: 19rem;
     }
 
     #avatarError {
-        margin-left: 24rem;
+        margin-left: 20rem;
     }
 
 }
