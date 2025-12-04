@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const avatarError = document.getElementById("avatarError");
 
 
-    // ========== IMAGE UPLOAD ==========
     fileInput.addEventListener("change", () => {
         const file = fileInput.files[0];
         if (file && file.type.startsWith("image/")) {
@@ -41,63 +40,55 @@ document.addEventListener("DOMContentLoaded", () => {
         uploadLabel.style.display = "block";
     });
 
-    // ========== FORM SUBMIT ==========
     form.addEventListener("submit", (e) => {
         e.preventDefault();
 
         let isValid = true;
 
-        // Reset errors
         [nameError, emailError, userError, avatarError].forEach(err => err.style.display = "none");
         [nameInput, emailInput, userInput].forEach(input => input.classList.remove("error"));
 
-        // Name validation
         if (nameInput.value.trim() === "") {
             nameError.textContent = "Full name is required";
             nameError.style.display = "block";
+            nameError.style.fontSize = "1rem"
             isValid = false;
         }
 
-        // Email validation
-        if (!emailInput.value.includes("@")) {
+       else if (!emailInput.value.includes("@")) {
             emailError.textContent = "Please enter a valid email with @";
             emailError.style.display = "block";
+            emailError.style.fontSize = "1rem"
             isValid = false;
         }
 
-        // GitHub username validation
-        if (!userInput.value.startsWith("@")) {
+       else if (!userInput.value.startsWith("@")) {
             userError.textContent = "GitHub username must start with @";
             userError.style.display = "block";
+            userError.style.fontSize = "1rem"
             isValid = false;
         }
 
-        // Avatar validation
-        if (!fileInput.files[0]) {
+       else if (!fileInput.files[0]) {
             avatarError.textContent = "Please upload your avatar";
             avatarError.style.display = "block";
+            avatarError.style.fontSize = "1rem"
             isValid = false;
-        }
+       }
 
-        if (!isValid) return; // stop if invalid
+        if (!isValid) return; 
 
-        // Save data
         localStorage.setItem("confName", nameInput.value.trim());
         localStorage.setItem("confEmail", emailInput.value.trim());
         localStorage.setItem("confUser", userInput.value.trim());
 
         const file = fileInput.files[0];
-        if (file) {
             const reader = new FileReader();
             reader.onload = (event) => {
                 localStorage.setItem("confAvatar", event.target.result);
                 document.location = "./html/index2.html";
             };
             reader.readAsDataURL(file);
-        } else {
-            window
-            document.location = "./html/index2.html";
-        }
     });
 });
 

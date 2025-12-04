@@ -18,10 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // document.getElementById("p4").innerText = ticketId;
 
     const avatarEl = document.getElementById("avatar");
-    if (avatar) {
         avatarEl.src = avatar;
-    } else {
-        avatarEl.src = "https://via.placeholder.com/100";
-        avatarEl.alt = "No avatar uploaded";
-    }
+
 });
