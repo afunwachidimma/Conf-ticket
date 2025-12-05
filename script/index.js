@@ -48,7 +48,13 @@ document.addEventListener("DOMContentLoaded", () => {
         [nameError, emailError, userError, avatarError].forEach(err => err.style.display = "none");
         [nameInput, emailInput, userInput].forEach(input => input.classList.remove("error"));
 
-        if (nameInput.value.trim() === "") {
+         if (!fileInput.files[0]) {
+            avatarError.textContent = "Please upload your avatar";
+            avatarError.style.display = "block";
+            avatarError.style.fontSize = "1rem"
+            isValid = false;
+       }
+       else if (nameInput.value.trim() === "") {
             nameError.textContent = "Full name is required";
             nameError.style.display = "block";
             nameError.style.fontSize = "1rem"
@@ -69,12 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
             isValid = false;
         }
 
-       else if (!fileInput.files[0]) {
-            avatarError.textContent = "Please upload your avatar";
-            avatarError.style.display = "block";
-            avatarError.style.fontSize = "1rem"
-            isValid = false;
-       }
+       
 
         if (!isValid) return; 
 
