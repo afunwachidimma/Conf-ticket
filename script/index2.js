@@ -1,10 +1,10 @@
 
 document.addEventListener("DOMContentLoaded", () => {
-    const name = localStorage.getItem("confName") || "Guest";
-    const email = localStorage.getItem("confEmail") || "guest@example.com";
-    const user = localStorage.getItem("confUser") || "@unknown";
+    const name = localStorage.getItem("confName");
+    const email = localStorage.getItem("confEmail"); 
+    const user = localStorage.getItem("confUser");
     const avatar = localStorage.getItem("confAvatar");
-    const ticketId = localStorage.getItem("confTicketId") || "";
+    const ticketId = localStorage.getItem("confTicketId");
 
 
     document.getElementById("h1").innerHTML = `Congrats, <span class="spa">${name}</span> ! your ticket is ready.`;
@@ -19,5 +19,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const avatarEl = document.getElementById("avatar");
         avatarEl.src = avatar;
-
 });
