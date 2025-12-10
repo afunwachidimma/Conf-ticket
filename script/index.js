@@ -75,8 +75,6 @@ document.addEventListener("DOMContentLoaded", () => {
             isValid = false;
         }
 
-       
-
         if (!isValid) return; 
 
         localStorage.setItem("confName", nameInput.value.trim());
